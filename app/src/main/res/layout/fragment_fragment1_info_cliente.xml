@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    android:id="@+id/rootLayout"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clienteInformacionTitulo"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Foto por default para cuenta del cliente -->
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:src="@drawable/floppa"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/tituloTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Nombre del cliente -->
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clienteNombreEtiqueta"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/fotoImageView"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/nombreInvitadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreInvitado"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/fotoImageView"
+        android:layout_toEndOf="@id/nombreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Apellido paterno del cliente -->
+    <TextView
+        android:id="@+id/apellidoPaternoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clienteApellidoPaternoEtiqueta"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/nombreTextView"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/apellidoPaternoInvitadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apellidoPaternoInvitado"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/nombreTextView"
+        android:layout_toEndOf="@id/apellidoPaternoTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Apellido Materno del cliente -->
+    <TextView
+        android:id="@+id/apellidoMaternoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clienteApellidoMaternoEtiqueta"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/apellidoPaternoTextView"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/apellidoMaternoInvitadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apellidoMaternoInvitado"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/apellidoPaternoTextView"
+        android:layout_toEndOf="@id/apellidoMaternoTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- País de residencia del cliente -->
+    <TextView
+        android:id="@+id/paisTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clientePais"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/apellidoMaternoTextView"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/paisInvitadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paisInvitado"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/apellidoMaternoTextView"
+        android:layout_toEndOf="@id/paisTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

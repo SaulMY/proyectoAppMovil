@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemInfoAdmin"
+        android:title="Informacion"
+        android:icon="@drawable/ic_frag1"
+        />
+
+    <item
+        android:id="@+id/itemAltas"
+        android:title="Altas"
+        android:icon="@drawable/ic_admin1"
+        />
+
+    <item
+        android:id="@+id/itemSalir2"
+        android:title="Cerrar sesion"
+        android:icon="@drawable/ic_frag4"
+        />
+</menu>

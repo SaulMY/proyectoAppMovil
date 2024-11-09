@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".comprobante_registro">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:padding="50dp"
+        android:text="Cliente dado de alta con exito." />
+
+    <ImageView
+        android:id="@+id/fotoComprobanteReg"
+        android:layout_width="390dp"
+        android:layout_height="292dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat3" />
+
+    <Button
+        android:id="@+id/btnConfirmaReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fotoComprobanteReg"
+        android:layout_marginTop="40dp"
+        android:text="@string/aceptar"
+        android:textSize="25sp"
+        style="@style/Widget.AppEvaluacion3.Button"/>
+
+</RelativeLayout>

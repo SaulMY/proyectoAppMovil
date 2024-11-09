@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/backgroundColor"
+    tools:context=".inicioAdmin">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sesion_de_administrador"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Foto por default para cuenta del admin -->
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:layout_width="278dp"
+        android:layout_height="265dp"
+        android:layout_below="@id/tituloTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat4" />
+
+    <TextView
+        android:id="@+id/tituloTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/en_la_sesion_de_administrador_puede_dar_de_alta_a_clientes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:padding="50dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppEvaluacion3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AppEvaluacion3" parent="Base.Theme.AppEvaluacion3" />
+
+    <!-- Custom button style -->
+    <style name="Widget.AppEvaluacion3.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Custom EditText style -->
+    <style name="Widget.AppEvaluacion3.EditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:backgroundTint">@color/editTextBackground</item>
+        <item name="android:textColor">@color/editTextText</item>
+        <item name="android:textColorHint">@color/editTextHint</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Custom TextInputLayout style -->
+    <style name="Widget.AppEvaluacion3.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/barColor</item> <!-- Color of the underline when focused -->
+        <item name="boxStrokeWidth">1dp</item> <!-- Width of the underline -->
+        <item name="boxStrokeWidthFocused">2dp</item> <!-- Width of the underline when focused -->
+    </style>
+
+    <!-- Style for BottomNavigationView -->
+    <style name="AppBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/nav_item_color_state_list</item>
+        <item name="itemTextColor">@color/nav_item_color_state_list</item>
+        <item name="backgroundTint">@color/bottomNavBackground</item>
+    </style>
+
+    <style name="CustomToggleButton">
+        <item name="android:textOn"> @string/modoOscuroOnBoton</item>
+        <item name="android:textOff"> @string/modoOscuroOffBoton</item>
+        <item name="android:textColor"> @color/toggleButtonText</item>
+        <item name="android:backgroundTint"> @color/toggleButtonBackground</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

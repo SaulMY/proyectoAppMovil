@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FF000000</color>
+    <color name="textColor">#FFFFFFFF</color>
+
+    <color name="blue">#5168A1</color>
+    <color name="red">#980A2C</color>
+    <color name="green">#0C8F32</color>
+
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark"> #3700B3 </color>
+    <color name="colorAccent"> #03DAC5 </color>
+
+    <color name="buttonBackground">#980A2C</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <color name="editTextBackground"> #FF000000 </color>
+    <color name="editTextText"> #FFFFFF </color>
+    <color name="editTextHint"> #5e5e5e </color>
+
+    <color name="barColor"> #673AB7 </color>
+
+    <color name="bottomNavBackground">#C55F1B</color>
+
+    <color name="backgroundAnimation"> #FF000000 </color>
+
+    <color name="toggleButtonBackground">#980A2C</color>
+    <color name="toggleButtonText"> #FFFFFF</color>
+</resources>

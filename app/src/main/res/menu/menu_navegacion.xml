@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clienteInfo"
+        android:title="@string/clienteOpc1"
+        android:icon="@drawable/ic_frag1"
+        />
+    <item
+        android:id="@+id/opciones"
+        android:title="@string/clienteOpc2"
+        android:icon="@drawable/ic_frag2"
+        />
+    <item
+        android:id="@+id/iniciarSesion"
+        android:title="@string/clienteOpc3"
+        android:icon="@drawable/ic_frag3"
+        />
+    <item
+        android:id="@+id/cerrarSesion"
+        android:title="@string/clienteOpc4"
+        android:icon="@drawable/ic_frag4"
+        />
+</menu>

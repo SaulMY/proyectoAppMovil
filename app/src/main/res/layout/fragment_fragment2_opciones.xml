@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    android:id="@+id/rootLayout"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcionesTitulo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <!-- Opcion 1 -->
+    <TextView
+        android:id="@+id/opcion1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion1"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/tituloTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón de modo oscuro -->
+    <ToggleButton
+        android:id="@+id/modoOscuroBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opcion1TextView"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:textOn="@string/modoOscuroOnBoton"
+        android:textOff="@string/modoOscuroOffBoton"
+        style="@style/CustomToggleButton"
+        />
+
+    <!-- Opcion 2 -->
+    <TextView
+        android:id="@+id/opcion2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion2"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/modoOscuroBoton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón de aumentar tamaño de letras -->
+    <Button
+        android:id="@+id/aumentarBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opcion2TextView"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:text="@string/aumentarBoton"
+        style="@style/Widget.AppEvaluacion3.Button"
+        />
+
+    <!-- Botón de disminuir tamaño de letra -->
+    <Button
+        android:id="@+id/disminuirBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aumentarBoton"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:text="@string/disminuirBoton"
+        style="@style/Widget.AppEvaluacion3.Button"
+        />
+
+</RelativeLayout>

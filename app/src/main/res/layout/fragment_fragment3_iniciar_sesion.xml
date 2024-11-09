@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    android:id="@+id/rootLayout"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginTitulo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <!-- Campo de usuario -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correoElectronicoEtiqueta"
+        android:id="@+id/correoElectronicoLayout"
+        android:layout_below="@id/tituloTextView"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/correoElectronicoEditText"
+            android:inputType="text"
+            style="@style/Widget.AppEvaluacion3.EditText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Campo de Contraseña -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contraseñaEtiqueta"
+        android:id="@+id/contraseñaLayout"
+        android:layout_below="@id/correoElectronicoLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contraseñaEditText"
+            android:inputType="textPassword"
+            style="@style/Widget.AppEvaluacion3.EditText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!-- Botón de Iniciar Sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contraseñaLayout"
+        android:layout_marginTop="32dp"
+        android:text="@string/botonIniciarSesion"
+        android:textSize="25sp"
+        style="@style/Widget.AppEvaluacion3.Button"
+        />
+
+</RelativeLayout>
